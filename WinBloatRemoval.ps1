@@ -30,24 +30,6 @@ Set-Content -Path "$($env:ProgramData)\Microsoft\RemoveW10Bloatware\RemoveW10Blo
 $UninstallPackages = @(
     "Microsoft.BingWeather"
     "Microsoft.Getstarted"
-    "Microsoft.GetHelp"
-    "Microsoft.Microsoft3DViewer"
-    "Microsoft.MicrosoftSolitaireCollection"
-    "Microsoft.MixedReality.Portal"
-    "Microsoft.OneConnect"
-    "Microsoft.SkypeApp"
-    "Microsoft.windowscommunicationsapps"
-    "Microsoft.WindowsFeedbackHub"
-    "Microsoft.Xbox.TCUI"
-    "Microsoft.XboxApp"
-    "Microsoft.XboxGameCallableUI"
-    "Microsoft.XboxGameOverlay"
-    "Microsoft.XboxGamingOverlay"
-    "Microsoft.XboxIdentityProvider"
-    "Microsoft.XboxSpeechToTextOverlay"
-    "Microsoft.YourPhone"
-    "Microsoft.ZuneMusic"
-    "Microsoft.ZuneVideo"
 )
 
 # List of programs to uninstall
