@@ -1,5 +1,7 @@
 # Intune-WinBloatRemoval
 Script meant to be ran using InTune to remove windows 10/11 bloatware
+Adapted from : https://www.burgerhout.org/remove-bloatware-on-windows-10/
+
 
 At the Install command field, type this:
 powershell.exe -noprofile -executionpolicy bypass -file .\RemoveW10Bloatware.ps1
